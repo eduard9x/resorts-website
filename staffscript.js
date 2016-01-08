@@ -1,5 +1,7 @@
-$(document).ready(function(){
-  $(".save").on("click", function(){
+$.getJSON('data.json', function(data) {
+  $(document).ready(function(){
+
+    $(".save").on("click", function(){
       // var myFavouriteProperties = [];
       try{
           $(this).attr('disabled', true);
@@ -45,11 +47,9 @@ $(document).ready(function(){
             console.log("Error: Saving to local storage.");
           }
       }
-  });
+    });
 
-
-
-$(".remove").on("click", function(){
+    $(".remove").on("click", function(){
         $(this).attr('disabled', true);
         $("button.save").attr('disabled', false);
         var staffIdToRemove = $(this).closest("p").attr("id");
@@ -64,34 +64,26 @@ $(".remove").on("click", function(){
                 confirmRemoval = 1;
                 var message = "Removed from the list.";
                 $("span.message").text(message);
-            }
+              }
             if(confirmRemoval == 0) {
               var message = "Not saved as favourite.";
               $("span.message").text(message);
             }
-
-        }else{
+        }
+        else{
           var message = "Nothing to remove.";
           $("span.message").text(message);
         }
-});
+    });
 
-
-$(".showActivities").on("click", function(){
-
-  var staffToFindActivity = $(this).closest("p").attr("id");
-
-  $.getJSON('data.json', function(data) {
-
-        for(var i=0;i<data.users.length;i++){
-            if(data.users[i].id == staffToFindActivity) {
-              alert(data.users[i].activities);
-          }
+    $(".showActivities").on("click", function(){
+      var staffToFindActivity = $(this).closest("p").attr("id");
+      for(var i=0;i<data.users.length;i++){
+        if(data.users[i].id == staffToFindActivity) {
+          alert(data.users[i].activities);
         }
+      }
+    });
 
   });
-});
-
-
-
 });
