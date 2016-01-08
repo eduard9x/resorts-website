@@ -1,7 +1,6 @@
-{ 
-	"resorts": [
-        {
-            "id":"resort1",
+{"resorts": [
+    {
+      "id":"resort1",
 			"destination":"Carribean",
 			"name":"Les Boucaniers",
             "location":"Martinique",
@@ -14,7 +13,7 @@
 			"picture":"images/resort1pic1small.jpg",
 			"long_description":"A divers' paradise in the Baie du Marin, a legendary spot.<br>Its bungalows are discreetly lodged in a tropical garden beside the white sand beach in superb Marin Bay. A magical site where you can enjoy a taste of everything, alone or with family or friends. Try water sports and the magnificent Club Med Spa*. You'll be enchanted by the exotic flavours of the local cuisine and the joyful spirit of the Caribbean.",
 			"url":"resorts/resort1.html"
-        },
+    },
 		{
 			"id":"resort2",
 			"destination":"Indian Ocean",

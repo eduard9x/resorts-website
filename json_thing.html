@@ -24,19 +24,21 @@
     <script src="jquery.min.js"></script>
     <!-- <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script> -->
     <script>
+      $.getJSON('data.json', function(data) {
         $(document).ready(function(){
             display();
             function display(){
-                $.getJSON('data.json', function(data) {
+
                       var output="<ul>";
                       var userDept = $("input:checked").val();
+
                       for (var i in data.users) {
                           if((userDept == data.users[i].dept) || (userDept == "Any") || (userDept == undefined))
                               output+="<li><a href='" + data.users[i].id + ".html" + "'>" + data.users[i].firstName + " " + data.users[i].lastName + "--" + data.users[i].joined.month+"</a></li>";
                       }
                       output+="</ul>";
                       document.getElementById("placeholder").innerHTML=output;
-                });
+
             }
             $("#search").on("click", function(){
                   display();
@@ -44,7 +46,7 @@
             $("#viewFavourites").on("click", function(){
               console.log("Restoring array data from local storage.");
 
-              $.getJSON('data.json', function(data) {
+
 
               myFavouriteStaff = JSON.parse(localStorage.getItem("favStaff"));
               var output = "<ul>";
@@ -61,14 +63,14 @@
                 output = "<h4>Favourite list is empty.</h4>";
               }
               document.getElementById("placeholder").innerHTML = output;
-              });
+
 
             });
 
 
             $("#clearFavourites").on("click", function(){
 
-              $.getJSON('data.json', function(data) {
+
 
               myFavouriteStaff = JSON.parse(localStorage.getItem("favStaff"));
               var output = "<h4>Favourites have been cleared.</h4>";
@@ -86,12 +88,12 @@
               }
 
               document.getElementById("placeholder").innerHTML = output;
-              });
+
               //TODO might be even easier by making the myFavouriteStaff=0; because we clear favs.
             });
 
 
-
+});
         });
     </script>
 </body>

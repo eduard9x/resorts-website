@@ -4,6 +4,7 @@
             "dept":"IT",
             "firstName":"Ray",
             "lastName":"Villalobos",
+            "activities":["water skiing", "tennis", "scuba diving", "kitesurf", "spa"],
             "joined": {
                 "month":"January",
                 "day":12,
@@ -15,6 +16,7 @@
             "dept":"HR",
             "firstName":"John",
             "lastName":"Jones",
+            "activities":["water", "tes", "diving", "kurf", "sfshdspa"],
             "joined": {
                 "month":"April",
                 "day":28,
