@@ -78,9 +78,9 @@ $.getJSON('data.json', function(data) {
 
     $(".showActivities").on("click", function(){
       var staffToFindActivity = $(this).closest("p").attr("id");
-      for(var i=0;i<data.users.length;i++){
-        if(data.users[i].id == staffToFindActivity) {
-          alert(data.users[i].activities);
+      for(var i=0;i<data.resorts.length;i++){
+        if(data.resorts[i].id == staffToFindActivity) {
+          alert(resorts.resorts[i].activities);
         }
       }
     });

@@ -3,11 +3,11 @@ $.getJSON('data.json', function(data) {
       display();
       function display(){
           var output="<ul>";
-          var userDept = $("input:checked").val();
-          if(userDept != undefined){
-            for (var i in data.users) {
-                if((userDept == data.users[i].dept) || (userDept == "Any"))
-                    output+="<li><a href='" + data.users[i].id + ".html" + "'>" + data.users[i].firstName + " " + data.users[i].lastName + "--" + data.users[i].joined.month+"</a></li>";
+          var userDest = $("input:checked").val();
+          if(userDest != undefined){
+            for (var i in data.resorts) {
+                if((userDest == data.resorts[i].destination) || (userDest == "Any"))
+                    output+="<li><a href='" + data.resorts[i].id + ".html" + "'>" + data.resorts[i].name + " " + data.resorts[i].price + "--" + data.resorts[i].picture+"</a></li>";
             }
           output+="</ul>";
           }
@@ -22,14 +22,14 @@ $.getJSON('data.json', function(data) {
       });
 
       $("#viewFavourites").on("click", function(){
-          console.log("Restoring array data from local storage.");
+          console.log("Restoring array resort from local storage.");
           myFavouriteStaff = JSON.parse(localStorage.getItem("favStaff"));
           var output = "<ul>";
           if(myFavouriteStaff!=null && myFavouriteStaff.length!=0){
-            for(var i=0;i<data.users.length;i++)
+            for(var i=0;i<data.resorts.length;i++)
               for(var j=0;j<myFavouriteStaff.length;j++)
-                if(data.users[i].id==myFavouriteStaff[j]){
-                  output+="<li>" + data.users[i].firstName + " " + data.users[i].lastName + "--" + data.users[i].joined.month + " – "+ "<a href='" + data.users[i].id + ".html'>Visit Page</a></li>";
+                if(data.resorts[i].id==myFavouriteStaff[j]){
+                  output+="<li>" + data.resorts[i].name + " " + data.resorts[i].price + "--" + data.resorts[i].picture + " – "+ "<a href='" + data.resorts[i].id + ".html'>Visit Page</a></li>";
                 }
             output+="</ul>";
           }
@@ -43,9 +43,9 @@ $.getJSON('data.json', function(data) {
           myFavouriteStaff = JSON.parse(localStorage.getItem("favStaff"));
           var output = "<h4>Favourites have been cleared.</h4>";
           if(myFavouriteStaff!=null && myFavouriteStaff.length!=0){
-            for(var i=0;i<data.users.length;i++)
+            for(var i=0;i<data.resorts.length;i++)
               for(var j=0;j<myFavouriteStaff.length;j++)
-                if(data.users[i].id==myFavouriteStaff[j]){
+                if(data.resorts[i].id==myFavouriteStaff[j]){
                   myFavouriteStaff.splice(j, 1);
                 }
           localStorage.setItem("favStaff", JSON.stringify(myFavouriteStaff));
