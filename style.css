@@ -1,0 +1,33 @@
+.wrapper{
+  text-align: center;
+  margin:0 10% 0 10%;
+}
+
+.search{
+  background-color: lightgray;
+  margin-bottom: 2%;
+}
+
+.results{
+  background-color: lightblue;
+  margin-bottom: 2%;
+}
+
+.results li{
+  list-style-type: none;
+}
+
+#placeholder{
+  background-color: brown;
+}
+
+header{
+  background-color: green;
+  padding:10%;
+  margin-bottom: 2%;
+}
+
+footer{
+  padding:10%;
+  background-color: pink;
+}

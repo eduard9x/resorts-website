@@ -5,6 +5,10 @@
  body{
    background-color: blue;
  }
+ .results{
+   /*  as long as the screen is max- have 2 columns  */
+     column-count: 2;
+ }
 }
 
 /**
@@ -13,5 +17,9 @@
 @media screen and (max-width: 1024px) {
  body{
    background-color: red;
+ }
+ .results{
+   /*  when the screen is small - have only one column  */
+     column-count: 1;
  }
 }
