@@ -99,13 +99,22 @@ header{
   background-position: center;
 }
 
-html {
+shortDescription{
+
+}
+
+
+h2{
+  font-size: 20pt;
+}
+
+/*html {
   background: url("../images/london.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 header h1{
 color:  #fff;

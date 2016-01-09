@@ -11,7 +11,7 @@ for(var i=0;i<data.resorts.length;i++){
     $('header').css('background-image', 'url("' + data.resorts[i].picture + '")');
 
     /*** This will add important details about the resort ***/
-    var shortDesc = "<h2> NEED TO ADD LARGE IMAGE, THUMBNAIL IMAGES AND SHORT DESCRIPTION " + data.resorts[i].name + "</h2> - <h4>" + data.resorts[i].destination + "</h4> - <h4>" + data.resorts[i].price + "</h4><p><h3>" + data.resorts[i].location + "</h3> - <h4>" + data.resorts[i].comfortLevel + "</h4><h4> Activities: " + data.resorts[i].activities + "</h4></p>";
+    var shortDesc = "<h2>" + data.resorts[i].name + "</h2><h4>" + data.resorts[i].destination + ", " + data.resorts[i].location + "</h4><br><h4>"+ data.resorts[i].short_description +"</h4><br>Estimate cost for 7 nights: £" + data.resorts[i].price + "</h4><h4>Comfort level: " + data.resorts[i].comfortLevel + "</h4><h4> Activities: " + data.resorts[i].activities + "</h4><br>";
     document.getElementsByClassName("shortDescription")[0].innerHTML=shortDesc; //need to make it  - i - after
 
     /*** This will add data inside the tabs ***/
