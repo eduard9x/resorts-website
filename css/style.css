@@ -58,7 +58,7 @@ table {
 }
 
 .search{
-  background-color: lightgray;
+  background-color: white;
   margin-bottom: 1em;
 }
 
@@ -93,25 +93,20 @@ header{
   /*background-color: green;*/
   margin:.5em 0 1em 0;
   padding:7%;
-  background-image: url("images/header.jpg");
+  background-image: url("../images/header.jpg");
   background-size: cover;
   border: 1px solid;
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,.3);
   background-position: center;
 }
 
-/*body{
-    opacity: 0.8;
-}
-
 html {
-
-  background: url("images/london.jpg") no-repeat center center fixed;
+  background: url("../images/london.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
+}
 
 header h1{
 color:  #fff;
@@ -119,6 +114,7 @@ white-space: nowrap;
 }
 
 footer{
+  margin:1em 0 .5em 0;
   padding:10%;
-  background-color: pink;
+  background-color: white;
 }

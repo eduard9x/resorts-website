@@ -1,4 +1,4 @@
-$.getJSON('data.json', function(data) {
+$.getJSON('../data.json', function(data) {
   $(document).ready(function(){
 
 var pageTitle = document.title;
@@ -111,7 +111,7 @@ for(var i=0;i<data.resorts.length;i++){
       var staffToFindActivity = $(this).closest("p").attr("id");
       for(var i=0;i<data.resorts.length;i++){
         if(data.resorts[i].id == staffToFindActivity) {
-          // alert(data.resorts[i].activities);
+          alert(data.resorts[i].activities);
         }
       }
 

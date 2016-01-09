@@ -7,7 +7,7 @@ $.getJSON('data.json', function(data) {
           if(userDest != undefined){
             for (var i in data.resorts) {
                 if((userDest == data.resorts[i].destination) || (userDest == "Any"))
-                    output+="<li><a href='" + data.resorts[i].id + ".html" + "'>" + data.resorts[i].name + " " + data.resorts[i].price + "--" + data.resorts[i].picture+"</a></li>";
+                    output+="<li><a href='" + data.resorts[i].url + "'>" + data.resorts[i].name + " " + data.resorts[i].price + "--" + data.resorts[i].picture+"</a></li>";
             }
           output+="</ul>";
           }
@@ -29,7 +29,7 @@ $.getJSON('data.json', function(data) {
             for(var i=0;i<data.resorts.length;i++)
               for(var j=0;j<myFavouriteStaff.length;j++)
                 if(data.resorts[i].id==myFavouriteStaff[j]){
-                  output+="<li>" + data.resorts[i].name + " " + data.resorts[i].price + "--" + data.resorts[i].picture + " – "+ "<a href='" + data.resorts[i].id + ".html'>Visit Page</a></li>";
+                  output+="<li>" + data.resorts[i].name + " " + data.resorts[i].price + "--" + data.resorts[i].picture + " – "+ "<a href='" + data.resorts[i].url + "'>Visit Page</a></li>";
                 }
             output+="</ul>";
           }
