@@ -49,5 +49,22 @@
 			"url":"resorts/resort2.html",
       "accomodation": "blablabla",
       "google_maps": "id151351325"
+		},
+		{
+			"id":"Chamonix2",
+			"destination":"The Alps",
+			"name":"Chamonix Mont-Blanc",
+            "location":"France",
+            "comfortLevel": "4",
+            "activities":["extreme sports", "hiking", "spa"],
+			"price":2800,
+			"startDate":"2016-01-01",
+			"endDate":"2016-03-01",
+			"short_description":"Everything about Chamonix ski resort is big. In the shadow of Mont Blanc, the highest mountain in the European Alps, the deep valley has more skiable slopes than seems reasonable.",
+			"picture":"images/resort2pic1small.jpg",
+			"long_description":"Welcome to the European capital of extreme skiing. If Chamonix is the sacred heart of skiing then Mont Blanc is its altar and mountain guides are the high priests. There is nowhere like the Chamonix valley to remind you of man's insignificance compared to the vast, steep-sided mountain peaks that overlook the valley on both sides. First impressions are breathtaking; the Chamonix Aiguilles dwarf the town, making you crane your neck to see the sky. And the view just gets better the higher you go from the valley floor.",
+			"url":"resorts/resort2.html",
+      "accomodation": "blablabla",
+      "google_maps": "id151351325"
 		}
 ]}

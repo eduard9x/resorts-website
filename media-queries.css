@@ -2,24 +2,41 @@
 *** larger than 1024px - ipad landscape
 **/
 @media screen and (min-width: 1024px) {
- body{
-   background-color: blue;
- }
+
  .results{
    /*  as long as the screen is max- have 2 columns  */
      column-count: 2;
  }
+
+ .wrapper{
+   margin:0 10% 0 10%;
+ }
+
+ header h1{
+   font-size:3em;
+   -webkit-box-reflect: below -15px -webkit-linear-gradient(transparent, transparent 50%, white 90%);
+ }
+
 }
 
 /**
 *** smaller than 1024px - ipad landscape
 **/
 @media screen and (max-width: 1024px) {
- body{
-   background-color: red;
- }
+
  .results{
    /*  when the screen is small - have only one column  */
      column-count: 1;
+ }
+
+ .wrapper{
+   text-align: center;
+   margin:0 5% 0 5%;
+ }
+
+ header h1{
+   font-size:1.5em;
+  -webkit-box-reflect: below -5px -webkit-linear-gradient(transparent, transparent 50%, white 90%);
+
  }
 }

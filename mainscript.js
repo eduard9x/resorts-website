@@ -2,7 +2,7 @@ $.getJSON('data.json', function(data) {
   $(document).ready(function(){
       display();
       function display(){
-          var output="<ul>";
+          var output="<ul class='columns'>";
           var userDest = $("input:checked").val();
           if(userDest != undefined){
             for (var i in data.resorts) {
