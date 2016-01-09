@@ -1,5 +1,6 @@
 $.getJSON('data.json', function(data) {
   $(document).ready(function(){
+
       display();
       function display(){
           var output="<ul class='columns'>";

@@ -3,34 +3,25 @@ $.getJSON('../data.json', function(data) {
 
 var pageTitle = document.title;
 
-/*
-** This will find the current page in the json file
-*/
-
+/*** This will find the current page in the json file ***/
 for(var i=0;i<data.resorts.length;i++){
   if(data.resorts[i].name == pageTitle) {
 
-/*
-** This will add important details about the resort
-*/
+    /*** This will change the header's background to the one corresponding to the resort ***/
+    $('header').css('background-image', 'url("' + data.resorts[i].picture + '")');
 
+    /*** This will add important details about the resort ***/
     var shortDesc = "<h2> NEED TO ADD LARGE IMAGE, THUMBNAIL IMAGES AND SHORT DESCRIPTION " + data.resorts[i].name + "</h2> - <h4>" + data.resorts[i].destination + "</h4> - <h4>" + data.resorts[i].price + "</h4><p><h3>" + data.resorts[i].location + "</h3> - <h4>" + data.resorts[i].comfortLevel + "</h4><h4> Activities: " + data.resorts[i].activities + "</h4></p>";
     document.getElementsByClassName("shortDescription")[0].innerHTML=shortDesc; //need to make it  - i - after
 
-/*
-** This will add data inside the tabs
-*/
-
+    /*** This will add data inside the tabs ***/
     var longDescription = data.resorts[i].long_description;
     document.getElementsByClassName("longDescription")[0].innerHTML=longDescription;
     var accomodation = data.resorts[i].accomodation;
     document.getElementsByClassName("accomodation")[0].innerHTML=accomodation;
-    var googleMaps = data.resorts[i].google_maps;
-    document.getElementsByClassName("googleMaps")[0].innerHTML=googleMaps;
 
   }
 }
-
 
     $(".save").on("click", function(){
       // var myFavouriteProperties = [];
@@ -105,18 +96,6 @@ for(var i=0;i<data.resorts.length;i++){
           var message = "Nothing to remove.";
           $("span.message").text(message);
         }
-    });
-
-    $(".showActivities").on("click", function(){
-      var staffToFindActivity = $(this).closest("p").attr("id");
-      for(var i=0;i<data.resorts.length;i++){
-        if(data.resorts[i].id == staffToFindActivity) {
-          alert(data.resorts[i].activities);
-        }
-      }
-
-
-
     });
 
   });
