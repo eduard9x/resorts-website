@@ -1,6 +1,21 @@
 $.getJSON('data.json', function(data) {
   $(document).ready(function(){
 
+/*
+** This will create my short description on each page
+** by getting the page title and comparing to resorts name
+** to find the right page where it should add the description
+*/
+
+var pageTitle = document.title;
+for(var i=0;i<data.resorts.length;i++){
+  if(data.resorts[i].name == pageTitle) {
+    var shortDesc = "<h2> " + data.resorts[i].name + "</h2> - <h4>" + data.resorts[i].destination + "</h4> - <h4>" + data.resorts[i].price + "</h4><p><h3>" + data.resorts[i].location + "</h3> - <h4>" + data.resorts[i].comfortLevel + "</h4><h4> Activities: " + data.resorts[i].activities + "</h4></p>";
+    document.getElementsByClassName("shortDescription")[0].innerHTML=shortDesc; //need to make it  - i - after
+  }
+}
+
+
     $(".save").on("click", function(){
       // var myFavouriteProperties = [];
       try{
@@ -80,7 +95,7 @@ $.getJSON('data.json', function(data) {
       var staffToFindActivity = $(this).closest("p").attr("id");
       for(var i=0;i<data.resorts.length;i++){
         if(data.resorts[i].id == staffToFindActivity) {
-          alert(resorts.resorts[i].activities);
+          alert(data.resorts[i].activities);
         }
       }
     });
