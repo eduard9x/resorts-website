@@ -90,44 +90,6 @@ $.getJSON('data.json', function(data) {
         }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      // function display(){
-      //     var output="<ul class='columns'>";
-      //     var userDest = $("input:checked").val();
-      //     if(userDest != undefined){
-      //       for (var i in data.resorts) {
-      //           if((userDest == data.resorts[i].destination) || (userDest == "Any"))
-      //               output+="<li><img src='" + data.resorts[i].picture + "'><h2><a href='" + data.resorts[i].url + "'>" + data.resorts[i].name + "</a></h2><h4>" + data.resorts[i].startDate + " to " + data.resorts[i].endDate + "</h4><h4>Price per night: £"
-      //                + data.resorts[i].price + "</h4><h4>" + data.resorts[i].short_description + "</h4>" +
-      //                 "</li>";
-      //       }
-      //     output+="</ul>";
-      //     }
-      //     else {
-      //       output= "<h4>Please select an option first.</h4>";
-      //     }
-      //
-      //     document.getElementById("placeholder").innerHTML=output;
-      // }
-
       $("#search").on("click", function(){
           display();
       });
