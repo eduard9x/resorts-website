@@ -99,9 +99,7 @@ header{
   background-position: center;
 }
 
-shortDescription{
 
-}
 
 
 h2{
@@ -110,6 +108,7 @@ h2{
 
 .results li{
   background-color: lightblue;
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,.3);
 }
 
 li img{

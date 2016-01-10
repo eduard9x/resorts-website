@@ -9,9 +9,9 @@
 			"price" : 125,
 			"startDate" : "2016-01-01",
 			"endDate" : "2016-12-31",
-			"short_description" : "The resort of Les Boucaniers is located on the laid-back beach-covered south coast of the island,<br> and is perfectly placed for Martinique holidays that are both relaxing and awe-inspiring.",
+			"short_description" : "The resort of Les Boucaniers is located on the laid-back beach-covered south coast of the island, and is perfectly placed for Martinique holidays that are both relaxing and awe-inspiring.",
 			"picture" : "images/Les-Boucaniers/header.jpg",
-			"long_description" : "A divers' paradise in the Baie du Marin, a legendary spot.<br>Its bungalows are discreetly lodged in a tropical garden beside the white sand beach in superb Marin Bay. A magical site where you can enjoy a taste of everything, alone or with family or friends. Try water sports and the magnificent Club Med Spa*. You'll be enchanted by the exotic flavours of the local cuisine and the joyful spirit of the Caribbean.",
+			"long_description" : "A divers' paradise in the Baie du Marin, a legendary spot.Its bungalows are discreetly lodged in a tropical garden beside the white sand beach in superb Marin Bay. A magical site where you can enjoy a taste of everything, alone or with family or friends. Try water sports and the magnificent Club Med Spa*. You'll be enchanted by the exotic flavours of the local cuisine and the joyful spirit of the Caribbean.",
 			"url" : "resorts/Les-Boucaniers.html",
 			"accomodation" : "http://www.clubmed.co.uk/cm/resort-les-boucaniers-martinique_p-341-l-EN-v-BUCC-ac-vh.html"
 		}, {
@@ -26,7 +26,7 @@
 			"endDate" : "2016-12-31",
 			"short_description" : "Beautifully located in one of the last remote creeks on the island, La Plantation d'Albion Club Med welcomes the most demanding of guests into a world of supreme refinement.",
 			"picture" : "images/La-Plantation-dAlbion/header.jpg",
-			"long_description" : "In a remote beauty spot, savour the luxury of Mauritian lifestyle. <br> The idyllic natural setting is enhanced by the sublime decor designed by Marc Hertrich and Nicolas Adnet, and the Resort's top-end comfort is perfectly reflected in its beautifully spacious rooms. The exceptional CINQ MONDES Spa* and luxurious overflow pool add an ideally Zen touch.<br> The Resort is entirely devoted to fulfilling its guests' desires and offers discreet, personal service in its swimming areas, bars and 'Table Gourmet' restaurants.",
+			"long_description" : "In a remote beauty spot, savour the luxury of Mauritian lifestyle. The idyllic natural setting is enhanced by the sublime decor designed by Marc Hertrich and Nicolas Adnet, and the Resort's top-end comfort is perfectly reflected in its beautifully spacious rooms. The exceptional CINQ MONDES Spa* and luxurious overflow pool add an ideally Zen touch. The Resort is entirely devoted to fulfilling its guests' desires and offers discreet, personal service in its swimming areas, bars and 'Table Gourmet' restaurants.",
 			"url" : "resorts/La-Plantation-dAlbion.html",
 			"accomodation" : "blablabla"
 		}, {
@@ -39,7 +39,7 @@
 			"price" : 150,
 			"startDate" : "2016-01-01",
 			"endDate" : "2016-03-01",
-			"short_description" : "Everything about Chamonix ski resort is big. <br> In the shadow of Mont Blanc, the highest mountain in the European Alps,<br> the deep valley has more skiable slopes than seems reasonable.",
+			"short_description" : "Everything about Chamonix ski resort is big. In the shadow of Mont Blanc, the highest mountain in the European Alps, the deep valley has more skiable slopes than seems reasonable.",
 			"picture" : "images/Chamonix/header.jpg",
 			"long_description" : "Welcome to the European capital of extreme skiing. If Chamonix is the sacred heart of skiing then Mont Blanc is its altar and mountain guides are the high priests. There is nowhere like the Chamonix valley to remind you of man's insignificance compared to the vast, steep-sided mountain peaks that overlook the valley on both sides. First impressions are breathtaking; the Chamonix Aiguilles dwarf the town, making you crane your neck to see the sky. And the view just gets better the higher you go from the valley floor.",
 			"url" : "resorts/Chamonix.html",
@@ -54,7 +54,7 @@
 			"price" : 300,
 			"startDate" : "2016-01-01",
 			"endDate" : "2016-12-31",
-			"short_description" : "Set on a 300 hectare property, Terre Blanche Hotel Spa Golf Resort is located in Tourrettes and offers luxury suites and villas.<br> Guests can enjoy a variety of outdoor activities on site and can relax in the outdoor and indoor pools.",
+			"short_description" : "Set on a 300 hectare property, Terre Blanche Hotel Spa Golf Resort is located in Tourrettes and offers luxury suites and villas. Guests can enjoy a variety of outdoor activities on site and can relax in the outdoor and indoor pools.",
 			"picture" : "images/Terre-Blanche/header.jpg",
 			"long_description" : "From 646 to 3229 sq. ft., all of our 115 Suites and Villas feature a private terrace with a unique view over the surrounding nature or Provencal villages. For even more space, our connection possibilities allow you to book adjoining Suites and Villas, so you may enjoy a private pavilion. Intimacy, calm, space... at Terre Blanche everyone will find what he is looking for. Terre Blanche Hotel, a Provencal village in harmony with nature. Pure luxury",
 			"url" : "resorts/Terre-Blanche.html",

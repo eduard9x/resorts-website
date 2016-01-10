@@ -3,6 +3,11 @@
 **/
 @media screen and (min-width: 1024px) {
 
+  .shortDescription{
+    width:50%;
+    margin: auto;
+  }
+
  .results{
    /*  as long as the screen is max- have 2 columns  */
      column-count: 2;
@@ -23,6 +28,13 @@
 *** smaller than 1024px - ipad landscape
 **/
 @media screen and (max-width: 1024px) {
+
+  .shortDescription{
+    width:80%;
+    margin: auto;
+  }
+
+
 
  .results{
    /*  when the screen is small - have only one column  */
