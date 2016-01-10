@@ -60,9 +60,9 @@
 			"url" : "resorts/Terre-Blanche.html",
 			"accomodation" : "http://en.terre-blanche.com/offres-forfaits/index.html"
 		}, {
-			"id" : "diamonds-africa",
+			"id" : "Diamonds",
 			"destination" : "Africa",
-			"name" : "Diamonds Dream of Africa ",
+			"name" : "Diamonds Dream of Africa",
 			"location" : "Kenya",
 			"comfortLevel" : "5",
 			"activities" : ["canoeing", "diving", "fitness", "spa"],
@@ -72,13 +72,12 @@
 			"short_description" : "Welcome to Diamonds Dream of Africa, where the enchanting force of nature melds with the exotic Indo-Arabic architecture to create a hypnotic charm, which, in Swahili, is known as bembeleza. Thanks to our all inclusive formula you will be able to enjoy every second of your holiday without any thought, pampered by our professional staff that is ready to satisfy all your desires. Sit yourself down on the Balinese armchairs on your room's terrace and listen to the sound of the wind and the rustling of the palm trees, enjoy the music of the waves and let your heart dance in silence: your dream of total relaxation is finally a reality.",
 			"picture" : "../images/Diamonds/header.jpg",
 			"long_description" : "Diamonds Dream of Africa is located along the silver sand beach of Malindi. It features a beauty centre and spa offering views of the ocean as well as a business centre.  Each air-conditioned suite has a private terrace with sun loungers, and a hot tub. It comes equipped with a flat-screen satellite TV, minibar and tea-and-coffee-making facilities. The private bathroom has a shower.  The à la carte restaurant serves a selection of seafood menus and the main restaurant has an open-air terrace overlooking the swimming pool. The pool bar serves fresh fruits, snacks and informal lunches.  There is a daily and evening entertainment program available at the nearby Sandies Tropical Village and a variety of water activities can be arranged at the water sports centre.  Free Wi-Fi is available and guests can shop at the fashion boutique on the property. Moi International Airport in Mombasa is a 2-hour drive away. ",
-			"url" : "resorts/Diamons.html",
+			"url" : "resorts/Diamonds.html",
 			"accomodation" : "http://dreamofafrica.diamondsresorts.com/Accommodation"
 		}, {
-
-			"id" : "chic-punta-cana",
+			"id" : "Chic",
 			"destination" : "The Caribbean",
-			"name" : "CHIC Punta Cana by Royalton Luxury Resorts",
+			"name" : "CHIC Punta Cana",
 			"location" : "Dominican Republic",
 			"comfortLevel" : "5",
 			"activities" : ["golf", "fitness", "spa", "tennis", "billiards"],
@@ -91,8 +90,7 @@
 			"url" : "resorts/Chic.html",
 			"accomodation" : "http://www.chicpuntacana.com/en/luxury-hotels-accommodations.aspx"
 		}, {
-
-			"id" : "wind",
+			"id" : "Wind",
 			"destination" : "Asia",
 			"name" : "Wind Beach Resort",
 			"location" : "Thailand",
@@ -104,11 +102,10 @@
 			"short_description" : "The Wind Beach Resort is located on the northern part of Sairee Beach with great views of the sunset and the beach from their restaurant. They are a well established family run resort who has been on Koh Tao for many years. They have recently built some new luxury rooms and refurbished their old rooms to a higher standard.",
 			"picture" : "../images/Wind/header.jpg",
 			"long_description" : "Located on Sairee Beach, Wind Beach Resort offers rooms with a private balcony. Guests can relax with massage treatments or arrange sightseeing trips at the tour desk. Free Wi-Fi is available in the public areas.  Equipped with an outdoor pool, the resort is a 10-minute drive to Koh Tao Pier and Mae Had Market. It is a 20-minute drive to Chalok Beach.  Rooms are fitted with a TV and minibar. An en suite bathroom comes with shower facilities.  The resort provides shuttle and laundry services at additional cost. Free private parking is possible on site.  Thai and European dishes can be enjoyed at Wind Beach Restaurant. Sairee Beach is a great choice for travellers interested in nightlife, beach and diving.",
-			"url" : "resorts/Wind-Beach.html",
+			"url" : "resorts/Wind.html",
 			"accomodation" : "http://windbeachresort.resort.kohtaoisland.net/"
 		}, {
-
-			"id" : "bandos",
+			"id" : "Bandos",
 			"destination" : "Indian Ocean",
 			"name" : "Bandos Maldives",
 			"location" : "Maldives",
@@ -123,24 +120,22 @@
 			"url" : "resorts/Bandos.html",
 			"accomodation" : "http://www.bandosmaldives.com/accommodation/"
 		}, {
-
-			"id" : "rocking-horse",
+			"id" : "Rocking",
 			"destination" : "North and Central America",
 			"name" : "Rocking Horse Ranch Resort",
 			"location" : "United States",
 			"comfortLevel" : "4",
-			"activities" : ["fitness", "spa", "tennis", "horse riding","ice skating"],
+			"activities" : ["fitness", "spa", "tennis", "horse riding", "ice skating"],
 			"price" : 100,
 			"startDate" : "2016-01-01",
 			"endDate" : "2016-12-31",
-			"short_description" :"We’re more than just horses… We’re the most fun your family ever had!",
-            "picture" : "../images/Rocking/header.jpg",
+			"short_description" : "We’re more than just horses… We’re the most fun your family ever had!",
+			"picture" : "../images/Rocking/header.jpg",
 			"long_description" : "We offer 4 seasons of indoor and outdoor activities for all ages. Our sprawling 500-acre property and beautiful private lake provides a scenic backdrop for your family’s next big adventure.  Enjoy three delicious daily all-you-can-eat meals, prepared by our culinary team, many of whom are graduates of the Culinary Institute of America—right here in the Hudson Valley!  End the night with top-name entertainment, featuring magicians, comedians, jugglers, Wild West Shows and circus acts from around the world. Get cozy in our updated rooms with luxurious Simmons® plush top mattresses and Bunk Beds for the kids. It’ll be the best family vacation you’ve ever had!",
-            "url" : "resorts/Rocking-Horse.html",
+			"url" : "resorts/Rocking.html",
 			"accomodation" : "http://www.rockinghorseranch.com/award-winning-accommodations/"
 		}, {
-
-			"id" : "iguazu",
+			"id" : "Iguazu",
 			"destination" : "South America",
 			"name" : "Iguazú Grand Resort Spa & Casino",
 			"location" : "Argentina",
@@ -150,11 +145,10 @@
 			"startDate" : "2016-01-01",
 			"endDate" : "2016-10-01",
 			"short_description" : "Located 15 minutes away from the Iguazu National Park and 20 minutes from the Puerto Iguazu Airport, the Iguazu Grand Resort Spa & Casino is the most luxurious hotel in the city of Puerto Iguazu, Argentina. It features 134 suites with minibar, LED TV and Wi-Fi.",
-            		"picture" : "../images/Iguazu/header.jpg",
+			"picture" : "../images/Iguazu/header.jpg",
 			"long_description" : "With 2 swimming pools, spa facilities a casino and luxurious décor, the hotel offers tennis courts, live shows and rooms with hydromassage tubs and free Wi-Fi. Private parking is also free. Iguazu Falls are a 10-minute drive.  At Iguazu Grand Resort Spa & Casino guests can exercise at the gym and treat themselves with massages or beauty treatments in a lavish 5-star ambiance.  Air-conditioned rooms have French style furniture, elegant draped curtains and are fully carpeted. They are equipped with seating areas, minibars and balconies with undisturbed garden views.  A full buffet breakfast with tropical fruits and treats is served daily in the breakfast lounge overlooking the pool. Guests can enjoy chef-designed specialties at the restaurant. Cafe Magic hosts live shows in a stylish amphitheatre with bar service.  The Grand Iguazu offers babysitting services, and offers ping-pong, play station, a pool activities for children. An on-site hair salon and a souvenir shop are available. Shuttles to Iguazu Airport are available. Tancredo Neves Bridge is 5 km away. ",
-            		"url" : "resorts/Iguazu.html",
+			"url" : "resorts/Iguazu.html",
 			"accomodation" : "https://www.iguazugrand.com/en/rooms/"
 		}
-
 	]
 }
