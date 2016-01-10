@@ -60,9 +60,9 @@
 			"url" : "resorts/Terre-Blanche.html",
 			"accomodation" : "http://en.terre-blanche.com/offres-forfaits/index.html"
 		}, {
-			"id" : "diamonds-africa",
+			"id" : "Diamonds",
 			"destination" : "Africa",
-			"name" : "Diamonds Dream of Africa ",
+			"name" : "Diamonds Dream of Africa",
 			"location" : "Kenya",
 			"comfortLevel" : "5",
 			"activities" : ["canoeing", "diving", "fitness", "spa"],
@@ -72,7 +72,7 @@
 			"short_description" : "Welcome to Diamonds Dream of Africa, where the enchanting force of nature melds with the exotic Indo-Arabic architecture to create a hypnotic charm, which, in Swahili, is known as bembeleza. Thanks to our all inclusive formula you will be able to enjoy every second of your holiday without any thought, pampered by our professional staff that is ready to satisfy all your desires. Sit yourself down on the Balinese armchairs on your room's terrace and listen to the sound of the wind and the rustling of the palm trees, enjoy the music of the waves and let your heart dance in silence: your dream of total relaxation is finally a reality.",
 			"picture" : "../images/Diamonds/header.jpg",
 			"long_description" : "Diamonds Dream of Africa is located along the silver sand beach of Malindi. It features a beauty centre and spa offering views of the ocean as well as a business centre.  Each air-conditioned suite has a private terrace with sun loungers, and a hot tub. It comes equipped with a flat-screen satellite TV, minibar and tea-and-coffee-making facilities. The private bathroom has a shower.  The à la carte restaurant serves a selection of seafood menus and the main restaurant has an open-air terrace overlooking the swimming pool. The pool bar serves fresh fruits, snacks and informal lunches.  There is a daily and evening entertainment program available at the nearby Sandies Tropical Village and a variety of water activities can be arranged at the water sports centre.  Free Wi-Fi is available and guests can shop at the fashion boutique on the property. Moi International Airport in Mombasa is a 2-hour drive away. ",
-			"url" : "resorts/Diamons.html",
+			"url" : "resorts/Diamonds.html",
 			"accomodation" : "http://dreamofafrica.diamondsresorts.com/Accommodation"
 		}, {
 
