@@ -124,20 +124,20 @@
 			"accomodation" : "http://www.bandosmaldives.com/accommodation/"
 		}, {
 
-			"id" : "bandos",
-			"destination" : "Indian Ocean",
-			"name" : "Bandos Maldives",
-			"location" : "Maldives",
+			"id" : "rocking-horse",
+			"destination" : "North and Central America",
+			"name" : "Rocking Horse Ranch Resort",
+			"location" : "United States",
 			"comfortLevel" : "4",
-			"activities" : ["fitness", "spa", "tennis", "fishing", "windsurfing", "canoeing", "diving"],
-			"price" : 220,
-			"startDate" : "2016-03-01",
-			"endDate" : "2016-04-01",
-			"short_description" : "Lapped by the vast expanse of the Indian Ocean, the island of Bandos is blissfully marooned a world away from the hurly-burly of daily life.  The turquoise of the lagoon, lush green vegetation, pearl white beaches, azure blue sky and abundant golden sunshine create a feeling of perfect tranquility. Everyday stresses will melt away as you are transported to a haven of pure calm and serenity.  From the moment you arrive you will receive a warm Maldives welcome and the friendly, attentive service that has earned Bandos the reputation of the ‘Island of Hospitality’. Bandos Maldives features spacious rooms with balconies overlooking the garden or beach. A water sports centre and dive school are available. The hotel has multiple dining options where free Wi-Fi can also be enjoyed. ",
-			"picture" : "images/Bandos/header.jpg",
-			"long_description" : "Bandos Resort is ideally situated on Bandos Island, just a 10-minute boat ride from Male International Airport.  Bandos’ rooms and villas are surrounded by nature’s beauty, some featuring high thatched roofs or wooden décor. Tea/coffee makers and minibars are provided. Some feature separate living rooms or outdoor hot tubs.  A pool with swim up bar is available, while beauty and massage treatments are available at the resort’s spa. Paradise Club offers a range of fitness activities including a gym, badminton and tennis courts. A TV room with table tennis and board games is available. Kids Club offers babysitting services along with a range of programmes for the little ones.  Authentic Thai cuisine can be enjoyed at Koon Thai restaurant, while Sea Breeze Café offers Western and international food by the sea. A wide range of buffet foods can be savoured at Gallery Restaurant. Huvan and Sand Bar provide lovely tropical settings to enjoy cocktails and live entertainment. ",
-			"url" : "resorts/Bandos.html",
-			"accomodation" : "http://www.bandosmaldives.com/accommodation/"
+			"activities" : ["fitness", "spa", "tennis", "horse riding","ice skating"],
+			"price" : 100,
+			"startDate" : "2016-01-01",
+			"endDate" : "2016-12-31",
+			"short_description" :"We’re more than just horses… We’re the most fun your family ever had!",
+            "picture" : "images/Rocking/header.jpg",
+			"long_description" : "We offer 4 seasons of indoor and outdoor activities for all ages. Our sprawling 500-acre property and beautiful private lake provides a scenic backdrop for your family’s next big adventure.  Enjoy three delicious daily all-you-can-eat meals, prepared by our culinary team, many of whom are graduates of the Culinary Institute of America—right here in the Hudson Valley!  End the night with top-name entertainment, featuring magicians, comedians, jugglers, Wild West Shows and circus acts from around the world. Get cozy in our updated rooms with luxurious Simmons® plush top mattresses and Bunk Beds for the kids. It’ll be the best family vacation you’ve ever had!",
+            "url" : "resorts/Rocking-Horse.html",
+			"accomodation" : "http://www.rockinghorseranch.com/award-winning-accommodations/"
 		}, {
 
 			"id" : "iguazu",
@@ -145,7 +145,7 @@
 			"name" : "Iguazú Grand Resort Spa & Casino",
 			"location" : "Argentina",
 			"comfortLevel" : "5",
-			"activities" : ["fitness", "spa", "tennis", "fishing", "windsurfing", "canoeing", "diving"],
+			"activities" : ["fitness", "spa", "tennis", "pool", "casino", "diving"],
 			"price" : 150,
 			"startDate" : "2016-01-01",
 			"endDate" : "2016-10-01",
