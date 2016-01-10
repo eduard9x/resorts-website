@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>Terre Blanche</title>
 
     <!-- main css -->
@@ -12,6 +12,9 @@
 
     <!-- jquery-ui css -->
     <link href="../css/jquery-ui.min.css" rel="stylesheet">
+
+    <!-- gallery css -->
+    <link href="../css/blueimp-gallery.min.css" rel="stylesheet" >
 
     <!-- html5.js for IE less than 9 -->
     <!--[if lt IE 9]>
@@ -44,15 +47,60 @@
       <h1>Take the weekend off</h1>
     </header>
 
+
+    <p class="shortDescription"></p>
+
     <p id="Terre-Blanche">
       <button class="save">Save to favourites</button>
       <button class="remove">Remove from favourites</button>
-      <button class="showActivities">Show activities</button>
     </p>
-
     <span class="message"></span>
 
-    <p class="shortDescription"></p>
+
+
+<!-- The Gallery plugin -->
+<div id="links">
+    <a href="../images/Terre-Blanche/1.jpg">
+        <img src="../images/Terre-Blanche/thumbnails/1.jpg">
+    </a>
+    <a href="../images/Terre-Blanche/2.jpg">
+        <img src="../images/Terre-Blanche/thumbnails/2.jpg">
+    </a>
+    <a href="../images/Terre-Blanche/3.jpg">
+        <img src="../images/Terre-Blanche/thumbnails/3.jpg">
+    </a>
+    <a href="../images/Terre-Blanche/4.jpg">
+        <img src="../images/Terre-Blanche/thumbnails/4.jpg">
+    </a>
+    <a href="../images/Terre-Blanche/5.jpg">
+        <img src="../images/Terre-Blanche/thumbnails/5.jpg">
+    </a>
+    <a href="../images/Terre-Blanche/6.jpg">
+        <img src="../images/Terre-Blanche/thumbnails/6.jpg">
+    </a>
+    <a href="../images/Terre-Blanche/7.jpg">
+        <img src="../images/Terre-Blanche/thumbnails/7.jpg">
+    </a>
+    <a href="../images/Terre-Blanche/8.jpg">
+        <img src="../images/Terre-Blanche/thumbnails/8.jpg">
+    </a>
+    <a href="../images/Terre-Blanche/9.jpg">
+        <img src="../images/Terre-Blanche/thumbnails/9.jpg">
+    </a>
+</div>
+
+  <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+  <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+      <div class="slides"></div>
+      <h3 class="title"></h3>
+      <a class="prev">‹</a>
+      <a class="next">›</a>
+      <a class="close">×</a>
+      <a class="play-pause"></a>
+      <ol class="indicator"></ol>
+  </div>
+
+
 
     <div id="tabs">
      <ul>
@@ -67,7 +115,6 @@
        <p class="accomodation"></p>
      </div>
      <div id="tabs-3">
-       <p class="googleMaps"></p>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.7629893300323!2d6.7298553153189955!3d43.59065286449135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12cc1fe105aa6ef3%3A0xad63e8874f121a3!2sTerre+Blanche+H%C3%B4tel+Spa+Golf+Resort*2A*2A*2A*2A*2A!5e0!3m2!1sen!2sro!4v1452382887569" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
      </div>
     </div>
@@ -79,5 +126,19 @@
 
   </div>
 
+
+
+  <script src="../js/blueimp-gallery.min.js"></script>
+
+  <script>
+  document.getElementById('links').onclick = function (event) {
+      event = event || window.event;
+      var target = event.target || event.srcElement,
+          link = target.src ? target.parentNode : target,
+          options = {index: link, event: event},
+          links = this.getElementsByTagName('a');
+      blueimp.Gallery(links, options);
+  };
+  </script>
 </body>
 </html>
