@@ -8,7 +8,7 @@ for(var i=0;i<data.resorts.length;i++){
   if(data.resorts[i].name == pageTitle) {
 
     /*** This will change the header's background to the one corresponding to the resort ***/
-    $('header').css('background-image', 'url("' + data.resorts[i].picture + '")');
+    $('header').css('background-image', 'url("../' + data.resorts[i].picture + '")');
 
     /*** This will add important details about the resort ***/
     var shortDesc = "<h2>" + data.resorts[i].name + "</h2><h4>" + data.resorts[i].destination + ", " + data.resorts[i].location + "</h4><br><h4>"+ data.resorts[i].short_description +"</h4><br>Estimate cost for 7 nights: £" + data.resorts[i].price + "</h4><h4>Comfort level: " + data.resorts[i].comfortLevel + "</h4><h4> Activities: " + data.resorts[i].activities + "</h4><br>";

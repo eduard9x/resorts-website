@@ -108,6 +108,15 @@ h2{
   font-size: 20pt;
 }
 
+.results li{
+  background-color: lightblue;
+}
+
+li img{
+  height:100px;
+}
+
+
 /*html {
   background: url("../images/london.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
