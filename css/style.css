@@ -66,9 +66,13 @@ table {
   margin-bottom: 1em;
 }
 
-.wrapper li{
+.wrapper ul{
   list-style-type: none;
-
+  margin: 0;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid-column;
+  display:table;
 }
 
 .columns {
@@ -84,9 +88,9 @@ li {
   background: white;
   /*padding: 1em;*/
   margin-bottom: .3em;
-  -webkit-column-break-inside: avoid;
+  /*-webkit-column-break-inside: avoid;
   page-break-inside: avoid;
-  break-inside: avoid;
+  break-inside: avoid;*/
 }
 
 header{
@@ -109,16 +113,16 @@ h2{
 }
 
 li img{
-  height:100px;
+  width: 100%;
 }
 
-html {
+/*html {
   background: url("../images/backgr.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 header h1{
 color:  #fff;
@@ -137,7 +141,7 @@ footer {
     font-size: 0.9em;
     clear: both;
     padding: 10px 10px 10px 20px;
-   
+
 }
 
 .one_third {
@@ -147,7 +151,7 @@ footer {
 }
 
 
-ul, menu, dir {
+menu, dir {
     display: block;
     list-style-type: disc;
     -webkit-margin-before: 1em;
