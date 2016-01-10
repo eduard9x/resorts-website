@@ -24,12 +24,12 @@ $.getJSON('data.json', function(data) {
 
       $("#viewFavourites").on("click", function(){
           console.log("Restoring array resort from local storage.");
-          myFavouriteStaff = JSON.parse(localStorage.getItem("favStaff"));
+          myFavouriteResort = JSON.parse(localStorage.getItem("favResort"));
           var output = "<ul>";
-          if(myFavouriteStaff!=null && myFavouriteStaff.length!=0){
+          if(myFavouriteResort!=null && myFavouriteResort.length!=0){
             for(var i=0;i<data.resorts.length;i++)
-              for(var j=0;j<myFavouriteStaff.length;j++)
-                if(data.resorts[i].id==myFavouriteStaff[j]){
+              for(var j=0;j<myFavouriteResort.length;j++)
+                if(data.resorts[i].id==myFavouriteResort[j]){
                   output+="<li>" + data.resorts[i].name + " " + data.resorts[i].price + "--" + data.resorts[i].picture + " – "+ "<a href='" + data.resorts[i].url + "'>Visit Page</a></li>";
                 }
             output+="</ul>";
@@ -41,21 +41,21 @@ $.getJSON('data.json', function(data) {
       });
 
       $("#clearFavourites").on("click", function(){
-          myFavouriteStaff = JSON.parse(localStorage.getItem("favStaff"));
+          myFavouriteResort = JSON.parse(localStorage.getItem("favResort"));
           var output = "<h4>Favourites have been cleared.</h4>";
-          if(myFavouriteStaff!=null && myFavouriteStaff.length!=0){
+          if(myFavouriteResort!=null && myFavouriteResort.length!=0){
             for(var i=0;i<data.resorts.length;i++)
-              for(var j=0;j<myFavouriteStaff.length;j++)
-                if(data.resorts[i].id==myFavouriteStaff[j]){
-                  myFavouriteStaff.splice(j, 1);
+              for(var j=0;j<myFavouriteResort.length;j++)
+                if(data.resorts[i].id==myFavouriteResort[j]){
+                  myFavouriteResort.splice(j, 1);
                 }
-          localStorage.setItem("favStaff", JSON.stringify(myFavouriteStaff));
+          localStorage.setItem("favResort", JSON.stringify(myFavouriteResort));
           }
           else{
             var output = "<h4>Favourite list is already empty.</h4>";
           }
           document.getElementById("placeholder").innerHTML = output;
-          //TODO might be even easier by making the myFavouriteStaff=0; because we clear all favs.
+          //TODO might be even easier by making the myFavouriteResort=0; because we clear all favs.
       });
 
   });

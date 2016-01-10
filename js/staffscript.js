@@ -30,34 +30,34 @@ for(var i=0;i<data.resorts.length;i++){
           $("button.remove").attr('disabled', false);
           //restoreArrayData();
 
-          //get the staff id to be added to fav list
-          var staffIdToAdd = $(this).closest("p").attr("id");
+          //get the resort id to be added to fav list
+          var resortIdToAdd = $(this).closest("p").attr("id");
 
-          var myFavouriteStaff = JSON.parse(localStorage.getItem("favStaff"));
-          if(myFavouriteStaff == null){
-            myFavouriteStaff = [];
+          var myFavouriteResort = JSON.parse(localStorage.getItem("favResort"));
+          if(myFavouriteResort == null){
+            myFavouriteResort = [];
           }
 
           var alreadyExists = false;
-          for(var i in myFavouriteStaff){
-            if(myFavouriteStaff[i] == staffIdToAdd) alreadyExists = true;
+          for(var i in myFavouriteResort){
+            if(myFavouriteResort[i] == resortIdToAdd) alreadyExists = true;
           }
 
           if(alreadyExists == false){
                 // adding it to the favourite list, if it's not already therej
 
-                // add the staff id to the arrays of favourite staff
-                myFavouriteStaff.push(staffIdToAdd);
+                // add the resort id to the arrays of favourite resort
+                myFavouriteResort.push(resortIdToAdd);
 
                 // and add the content of the array to the local storage
-                localStorage.setItem("favStaff", JSON.stringify(myFavouriteStaff));
+                localStorage.setItem("favResort", JSON.stringify(myFavouriteResort));
 
                 //show a confirmation message
-                var message = "This staff has been added to the favourite list.";
+                var message = "This resort has been added to the favourite list.";
                 $("span.message").text(message);
           }
           else {
-                var message = "This staff has already been added to the favourite list.";
+                var message = "This resort has already been added to the favourite list.";
                 $("span.message").text(message);
           }
       }
@@ -74,15 +74,15 @@ for(var i=0;i<data.resorts.length;i++){
     $(".remove").on("click", function(){
         $(this).attr('disabled', true);
         $("button.save").attr('disabled', false);
-        var staffIdToRemove = $(this).closest("p").attr("id");
-        var myFavouriteStaff = JSON.parse(localStorage.getItem("favStaff"));
+        var resortIdToRemove = $(this).closest("p").attr("id");
+        var myFavouriteResort = JSON.parse(localStorage.getItem("favResort"));
         var confirmRemoval = 0;
 
-        if(myFavouriteStaff!=null && myFavouriteStaff.length!=0){
-            for(var i in myFavouriteStaff)
-              if(myFavouriteStaff[i] == staffIdToRemove) {
-                myFavouriteStaff.splice(i, 1);
-                localStorage.setItem("favStaff", JSON.stringify(myFavouriteStaff));
+        if(myFavouriteResort!=null && myFavouriteResort.length!=0){
+            for(var i in myFavouriteResort)
+              if(myFavouriteResort[i] == resortIdToRemove) {
+                myFavouriteResort.splice(i, 1);
+                localStorage.setItem("favResort", JSON.stringify(myFavouriteResort));
                 confirmRemoval = 1;
                 var message = "Removed from the list.";
                 $("span.message").text(message);
