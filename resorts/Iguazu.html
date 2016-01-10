@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Iguazu Grand Resort</title>
+
+    <!-- main css -->
+    <link href="../css/style.css" rel="stylesheet">
+
+    <!-- media queries css -->
+    <link href="../css/media-queries.css" rel="stylesheet">
+
+    <!-- jquery-ui css -->
+    <link href="../css/jquery-ui.min.css" rel="stylesheet">
+
+    <!-- gallery css -->
+    <link href="../css/blueimp-gallery.min.css" rel="stylesheet" >
+
+    <!-- html5.js for IE less than 9 -->
+    <!--[if lt IE 9]>
+    	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- css3-mediaqueries.js for IE less than 9 -->
+    <!--[if lt IE 9]>
+    	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery-ui.min.js"></script>
+    <script src="../js/staffscript.js"></script>
+
+    <script>
+       $(function() {
+         $( "#tabs" ).tabs();
+       });
+     </script>
+
+
+
+</head>
+<body>
+
+  <div class="wrapper">
+
+    <header>
+      <h1>Take the weekend off</h1>
+    </header>
+
+
+    <p class="shortDescription"></p>
+
+    <p id="Iguazu">
+      <button class="save">Save to favourites</button>
+      <button class="remove">Remove from favourites</button>
+    </p>
+    <span class="message"></span>
+
+
+
+<!-- The Gallery plugin -->
+<div id="links">
+    <a href="../images/Iguazu/1.jpg">
+        <img src="../images/Iguazu/thumbnails/1.jpg">
+    </a>
+    <a href="../images/Iguazu/2.jpg">
+        <img src="../images/Iguazu/thumbnails/2.jpg">
+    </a>
+    <a href="../images/Iguazu/3.jpg">
+        <img src="../images/Iguazu/thumbnails/3.jpg">
+    </a>
+    <a href="../images/Iguazu/4.jpg">
+        <img src="../images/Iguazu/thumbnails/4.jpg">
+    </a>
+    <a href="../images/Iguazu/5.jpg">
+        <img src="../images/Iguazu/thumbnails/5.jpg">
+    </a>
+    <a href="../images/Iguazu/6.jpg">
+        <img src="../images/Iguazu/thumbnails/6.jpg">
+    </a>
+    <a href="../images/Iguazu/7.jpg">
+        <img src="../images/Iguazu/thumbnails/7.jpg">
+    </a>
+</div>
+
+  <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+  <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+      <div class="slides"></div>
+      <h3 class="title"></h3>
+      <a class="prev">‹</a>
+      <a class="next">›</a>
+      <a class="close">×</a>
+      <a class="play-pause"></a>
+      <ol class="indicator"></ol>
+  </div>
+
+
+
+    <div id="tabs">
+     <ul>
+       <li><a href="#tabs-1">Description</a></li>
+       <li><a href="#tabs-2">Accommodation</a></li>
+       <li><a href="#tabs-3">Location</a></li>
+     </ul>
+     <div id="tabs-1">
+       <p class="longDescription"></p>
+     </div>
+     <div id="tabs-2">
+       <p class="accomodation"></p>
+     </div>
+     <div id="tabs-3">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3598.0275415148735!2d-54.56602848479468!3d-25.60400104605885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f693b4de01dfb1%3A0xced9df3bce423f31!2sIguazu+Grand+Hotel!5e0!3m2!1sen!2sro!4v1452421922135" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+     </div>
+    </div>
+
+
+
+    <footer>
+    </footer>
+
+  </div>
+
+
+
+  <script src="../js/blueimp-gallery.min.js"></script>
+
+  <script>
+  document.getElementById('links').onclick = function (event) {
+      event = event || window.event;
+      var target = event.target || event.srcElement,
+          link = target.src ? target.parentNode : target,
+          options = {index: link, event: event},
+          links = this.getElementsByTagName('a');
+      blueimp.Gallery(links, options);
+  };
+  </script>
+</body>
+</html>

@@ -137,7 +137,7 @@
 		}, {
 			"id" : "Iguazu",
 			"destination" : "South America",
-			"name" : "Iguazú Grand Resort Spa & Casino",
+			"name" : "Iguazú Grand Resort",
 			"location" : "Argentina",
 			"comfortLevel" : "5",
 			"activities" : ["fitness", "spa", "tennis", "pool", "casino", "diving"],
