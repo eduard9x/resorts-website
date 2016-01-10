@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
 	"resorts" : [{
 			"id" : "resort1",
@@ -158,3 +159,87 @@
 
 	]
 }
+=======
+{"resorts": [
+    {
+      "id":"resort1",
+			"destination":"Carribean",
+			"name":"Les Boucaniers",
+            "location":"Martinique",
+            "comfortLevel": "4",
+            "activities":["water skiing", "tennis", "scuba diving", "kitesurf", "spa"],
+			"price":1254,
+			"startDate":"2016-01-01",
+			"endDate":"2016-12-31",
+			"short_description":"The resort of Les Boucaniers is located on the laid-back beach-covered south coast of the island, and is perfectly placed for Martinique holidays that are both relaxing and awe-inspiring.",
+			"picture":"images/resort1pic1small.jpg",
+			"long_description":"A divers' paradise in the Baie du Marin, a legendary spot.<br>Its bungalows are discreetly lodged in a tropical garden beside the white sand beach in superb Marin Bay. A magical site where you can enjoy a taste of everything, alone or with family or friends. Try water sports and the magnificent Club Med Spa*. You'll be enchanted by the exotic flavours of the local cuisine and the joyful spirit of the Caribbean.",
+			"url":"resorts/resort1.html",
+      "accomodation": "blablabla"
+    },
+		{
+			"id":"resort2",
+			"destination":"Indian Ocean",
+			"name":"La Plantation d'Albion",
+            "location":"Mauritius",
+            "comfortLevel": "5",
+            "activities":["kids club","golf", "scuba diving", "flying trapeze", "tennis", "sailing", "spa"],
+			"price":2062,
+			"startDate":"2016-01-01",
+			"endDate":"2016-12-31",
+			"short_description":"Beautifully located in one of the last remote creeks on the island, La Plantation d'Albion Club Med welcomes the most demanding of guests into a world of supreme refinement.",
+			"picture":"images/resort2pic1small.jpg",
+			"long_description":"In a remote beauty spot, savour the luxury of Mauritian lifestyle. <br> The idyllic natural setting is enhanced by the sublime decor designed by Marc Hertrich and Nicolas Adnet, and the Resort's top-end comfort is perfectly reflected in its beautifully spacious rooms. The exceptional CINQ MONDES Spa* and luxurious overflow pool add an ideally Zen touch.<br> The Resort is entirely devoted to fulfilling its guests' desires and offers discreet, personal service in its swimming areas, bars and 'Table Gourmet' restaurants.",
+			"url":"resorts/resort2.html",
+      "accomodation": "blablabla"
+		},
+		{
+			"id":"Chamonix",
+			"destination":"The Alps",
+			"name":"Chamonix Mont-Blanc",
+            "location":"France",
+            "comfortLevel": "Premium 4star",
+            "activities":["skiing", "extreme sports", "hiking", "spa"],
+			"price":1500,
+			"startDate":"2016-01-01",
+			"endDate":"2016-03-01",
+			"short_description":"Everything about Chamonix ski resort is big. <br> In the shadow of Mont Blanc, the highest mountain in the European Alps,<br> the deep valley has more skiable slopes than seems reasonable.",
+			"picture":"../images/Chamonix/header.jpg",
+			"long_description":"Welcome to the European capital of extreme skiing. If Chamonix is the sacred heart of skiing then Mont Blanc is its altar and mountain guides are the high priests. There is nowhere like the Chamonix valley to remind you of man's insignificance compared to the vast, steep-sided mountain peaks that overlook the valley on both sides. First impressions are breathtaking; the Chamonix Aiguilles dwarf the town, making you crane your neck to see the sky. And the view just gets better the higher you go from the valley floor.",
+			"url":"resorts/Chamonix.html",
+      "accomodation": "http://www.chamonix.net/english/accommodation"
+		},
+        {
+            "id":"Terre-Blanche",
+			"destination":"Europe",
+			"name":"Terre Blanche",
+            "location":"France",
+            "comfortLevel": "5",
+            "activities":["tennis", "golf", "fitness", "spa"],
+			"price":300,
+			"startDate":"2016-01-01",
+			"endDate":"2016-12-31",
+			"short_description":"Set on a 300 hectare property, Terre Blanche Hotel Spa Golf Resort is located in Tourrettes and offers luxury suites and villas. Guests can enjoy a variety of outdoor activities on site and can relax in the outdoor and indoor pools.",
+			"picture":"images/Terre-Blanche/header.jpg",
+			"long_description":"From 646 to 3229 sq. ft., all of our 115 Suites and Villas feature a private terrace with a unique view over the surrounding nature or Provencal villages. For even more space, our connection possibilities allow you to book adjoining Suites and Villas, so you may enjoy a private pavilion. Intimacy, calm, space... at Terre Blanche everyone will find what he is looking for. Terre Blanche Hotel, a Provencal village in harmony with nature. Pure luxury",
+            "url":"resorts/Terre-Blanche.html",
+      "accomodation": "http://en.terre-blanche.com/offres-forfaits/index.html"
+        },
+        {
+            "id":"diamonds-africa",
+			"destination":"Africa",
+			"name":"Diamonds Dream of Africa ",
+            "location":"Kenya",
+            "comfortLevel": "5",
+            "activities":["canoeing", "diving", "fitness", "spa"],
+			"price":230,
+			"startDate":"2016-01-01",
+			"endDate":"2016-12-31",
+			"short_description":"Welcome to Diamonds Dream of Africa, where the enchanting force of nature melds with the exotic Indo-Arabic architecture to create a hypnotic charm, which, in Swahili, is known as bembeleza. Thanks to our all inclusive formula you will be able to enjoy every second of your holiday without any thought, pampered by our professional staff that is ready to satisfy all your desires. Sit yourself down on the Balinese armchairs on your room's terrace and listen to the sound of the wind and the rustling of the palm trees, enjoy the music of the waves and let your heart dance in silence: your dream of total relaxation is finally a reality.",
+			"picture":"images/Terre-Blanche/header.jpg",
+			"long_description":"Diamonds Dream of Africa is located along the silver sand beach of Malindi. It features a beauty centre and spa offering views of the ocean as well as a business centre.  Each air-conditioned suite has a private terrace with sun loungers, and a hot tub. It comes equipped with a flat-screen satellite TV, minibar and tea-and-coffee-making facilities. The private bathroom has a shower.  The à la carte restaurant serves a selection of seafood menus and the main restaurant has an open-air terrace overlooking the swimming pool. The pool bar serves fresh fruits, snacks and informal lunches.  There is a daily and evening entertainment program available at the nearby Sandies Tropical Village and a variety of water activities can be arranged at the water sports centre.  Free Wi-Fi is available and guests can shop at the fashion boutique on the property. Moi International Airport in Mombasa is a 2-hour drive away. ",
+            "url":"resorts/Diamons.html",
+      "accomodation": "http://dreamofafrica.diamondsresorts.com/Accommodation"
+        }
+]}
+>>>>>>> 2b4c60d5c5a33309cb0d956a3cb645d9c2c0b6a5
