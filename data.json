@@ -46,5 +46,37 @@
 			"long_description":"Welcome to the European capital of extreme skiing. If Chamonix is the sacred heart of skiing then Mont Blanc is its altar and mountain guides are the high priests. There is nowhere like the Chamonix valley to remind you of man's insignificance compared to the vast, steep-sided mountain peaks that overlook the valley on both sides. First impressions are breathtaking; the Chamonix Aiguilles dwarf the town, making you crane your neck to see the sky. And the view just gets better the higher you go from the valley floor.",
 			"url":"resorts/Chamonix.html",
       "accomodation": "http://www.chamonix.net/english/accommodation"
-		}
-]}
+		},
+        {
+            "id":"terre-blanche",
+			"destination":"Europe",
+			"name":"Terre Blanche Hotel Spa Golf Resort",
+            "location":"France",
+            "comfortLevel": "5",
+            "activities":["tennis", "golf", "fitness", "spa"],
+			"price":300,
+			"startDate":"2016-01-01",
+			"endDate":"2016-12-31",
+			"short_description":"Set on a 300 hectare property, Terre Blanche Hotel Spa Golf Resort is located in Tourrettes and offers luxury suites and villas. Guests can enjoy a variety of outdoor activities on site and can relax in the outdoor and indoor pools.",
+			"picture":"images/Terre-Blanche/header.jpg",
+			"long_description":"From 646 to 3229 sq. ft., all of our 115 Suites and Villas feature a private terrace with a unique view over the surrounding nature or Provencal villages. For even more space, our connection possibilities allow you to book adjoining Suites and Villas, so you may enjoy a private pavilion. Intimacy, calm, space... at Terre Blanche everyone will find what he is looking for. Terre Blanche Hotel, a Provencal village in harmony with nature. Pure luxury",
+            "url":"resorts/Terre-Blanche.html",
+      "accomodation": "http://en.terre-blanche.com/offres-forfaits/index.html"
+        },
+        {
+            "id":"diamonds-africa",
+			"destination":"Africa",
+			"name":"Diamonds Dream of Africa ",
+            "location":"Kenya",
+            "comfortLevel": "5",
+            "activities":["canoeing", "diving", "fitness", "spa"],
+			"price":230,
+			"startDate":"2016-01-01",
+			"endDate":"2016-12-31",
+			"short_description":"Welcome to Diamonds Dream of Africa, where the enchanting force of nature melds with the exotic Indo-Arabic architecture to create a hypnotic charm, which, in Swahili, is known as bembeleza. Thanks to our all inclusive formula you will be able to enjoy every second of your holiday without any thought, pampered by our professional staff that is ready to satisfy all your desires. Sit yourself down on the Balinese armchairs on your room's terrace and listen to the sound of the wind and the rustling of the palm trees, enjoy the music of the waves and let your heart dance in silence: your dream of total relaxation is finally a reality.",
+			"picture":"images/Terre-Blanche/header.jpg",
+			"long_description":"Diamonds Dream of Africa is located along the silver sand beach of Malindi. It features a beauty centre and spa offering views of the ocean as well as a business centre.  Each air-conditioned suite has a private terrace with sun loungers, and a hot tub. It comes equipped with a flat-screen satellite TV, minibar and tea-and-coffee-making facilities. The private bathroom has a shower.  The à la carte restaurant serves a selection of seafood menus and the main restaurant has an open-air terrace overlooking the swimming pool. The pool bar serves fresh fruits, snacks and informal lunches.  There is a daily and evening entertainment program available at the nearby Sandies Tropical Village and a variety of water activities can be arranged at the water sports centre.  Free Wi-Fi is available and guests can shop at the fashion boutique on the property. Moi International Airport in Mombasa is a 2-hour drive away. ",
+            "url":"resorts/Diamons.html",
+      "accomodation": "http://dreamofafrica.diamondsresorts.com/Accommodation"
+        }
+        ]}
