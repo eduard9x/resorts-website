@@ -17,7 +17,13 @@ for(var i=0;i<data.resorts.length;i++){
     /*** This will add data inside the tabs ***/
     var longDescription = data.resorts[i].long_description;
     document.getElementsByClassName("longDescription")[0].innerHTML=longDescription;
-    var accomodation = data.resorts[i].accomodation;
+    var accomodation = "<p> We recommend the following website for cheap prices and good services:<br>" + "<a href='" + data.resorts[i].accomodation + "'>" + data.resorts[i].accomodation + "</a><br>" +
+    "<br><p>Some other websites for high quality accommodation and fair prices:</p>" +
+    "<ol><li>AirBnB - <a href='https://www.airbnb.co.uk'>https://www.airbnb.co.uk</a></li>"+
+      "<li>TripAdvisor - <a href='http://www.tripadvisor.co.uk'>http://www.tripadvisor.co.uk</a></li>"+
+      "<li>Booking - <a href='http://www.booking.com'>http://www.booking.com</a></li></li>"+
+      "<li>LastMinute - <a href='http://www.lastminute.com'>http://www.lastminute.com</a></li></li></ol>";
+
     document.getElementsByClassName("accomodation")[0].innerHTML=accomodation;
 
   }

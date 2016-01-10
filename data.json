@@ -48,9 +48,9 @@
       "accomodation": "http://www.chamonix.net/english/accommodation"
 		},
         {
-            "id":"terre-blanche",
+            "id":"Terre-Blanche",
 			"destination":"Europe",
-			"name":"Terre Blanche Hotel Spa Golf Resort",
+			"name":"Terre Blanche",
             "location":"France",
             "comfortLevel": "5",
             "activities":["tennis", "golf", "fitness", "spa"],
@@ -79,4 +79,4 @@
             "url":"resorts/Diamons.html",
       "accomodation": "http://dreamofafrica.diamondsresorts.com/Accommodation"
         }
-        ]}
+]}
