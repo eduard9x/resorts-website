@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>JSON Tutorial</title>
+    <title>Resorts website</title>
 
     <!-- main css -->
     <link href="css/style.css" rel="stylesheet">
@@ -41,46 +41,62 @@
     <fieldset>
       <select name="resortDestination" id="resortDestination">
         <option selected="selected">Any</option>
-        <option>The Alps</option>
-        <option>Europe</option>
-        <option>Africa</option>
-        <option>The Caribbean</option>
-        <option>Indian Ocean</option>
-        <option>North and Central America</option>
-        <option>South America</option>
-        <option>Asia</option>
+        <optgroup label="Destination">
+          <option>The Alps</option>
+          <option>Europe</option>
+          <option>Africa</option>
+          <option>The Caribbean</option>
+          <option>Indian Ocean</option>
+          <option>North and Central America</option>
+          <option>South America</option>
+          <option>Asia</option>
+        </optgroup>
       </select>
 
       <select name="comfortLevel" id="comfortLevel">
           <option selected="selected">Any</option>
-          <option>Comfort 3star</option>
-          <option>Premium 4star</option>
-          <option>Luxury 5star</option>
+          <optgroup label="Comfort level">
+            <option>Comfort 3star</option>
+            <option>Premium 4star</option>
+            <option>Luxury 5star</option>
+          </optgroup>
       </select>
 
       <select name="resortActivities" id="resortActivities">
         <option selected="selected">Any</option>
-        <option>Water skiing</option>
-        <option>Sailing</option>
-        <option>Tennis</option>
-        <option>Scuba diving</option>
-        <option>Golf</option>
-        <option>Hiking</option>
-        <option>Horse riding</option>
-        <option>Spa</option>
-        <option>Kitesurf</option>
-        <option>Flying trapeze</option>
-        <option>Skiing</option>
-        <option>Extreme sports</option>
-        <option>Fitness</option>
-        <option>Canoeing</option>
-        <option>Pool</option>
-        <option>Fishing</option>
-        <option>Windsurfing</option>
-        <option>Ice skating</option>
-        <option>Casino</option>
-        <option>Kids club</option>
+        <optgroup label="Activities">
+          <option>Water skiing</option>
+          <option>Sailing</option>
+          <option>Tennis</option>
+          <option>Scuba diving</option>
+          <option>Golf</option>
+          <option>Hiking</option>
+          <option>Horse riding</option>
+          <option>Spa</option>
+          <option>Kitesurf</option>
+          <option>Flying trapeze</option>
+          <option>Skiing</option>
+          <option>Extreme sports</option>
+          <option>Fitness</option>
+          <option>Canoeing</option>
+          <option>Pool</option>
+          <option>Fishing</option>
+          <option>Windsurfing</option>
+          <option>Ice skating</option>
+          <option>Casino</option>
+          <option>Kids club</option>
+        </optgroup>
       </select>
+
+      <select name="resortPrice" id="resortPrice">
+        <option selected="selected">Any</option>
+         <optgroup label="Price per night">
+            <option>less than £50</option>
+            <option>between £50 - £100</option>
+            <option>more than £100</option>
+        </optgroup>
+      </select>
+
     </fieldset>
 
   </form>

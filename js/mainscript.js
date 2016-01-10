@@ -14,6 +14,7 @@ $.getJSON('data.json', function(data) {
         $("#resortDestination").selectmenu();
         $("#comfortLevel").selectmenu();
         $("#resortActivities").selectmenu();
+        $("#resortPrice").selectmenu();
       });
 
       function display(){
@@ -22,7 +23,7 @@ $.getJSON('data.json', function(data) {
           if(userDest != undefined){
             for (var i in data.resorts) {
                 if((userDest == data.resorts[i].destination) || (userDest == "Any"))
-                    output+="<li><img src='" + data.resorts[i].picture + "'><h2><a href='" + data.resorts[i].url + "'>" + data.resorts[i].name + "</a></h2><h4>Price: £"
+                    output+="<li><img src='" + data.resorts[i].picture + "'><h2><a href='" + data.resorts[i].url + "'>" + data.resorts[i].name + "</a></h2><h4> Available between " + data.resorts[i].startDate + " and " + data.resorts[i].endDate + "</h4><h4>Price per night: £"
                      + data.resorts[i].price + "</h4><h4>" + data.resorts[i].short_description + "</h4>" +
                       "</li>";
             }
