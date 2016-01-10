@@ -1,7 +1,7 @@
 {
 	"resorts" : [{
 			"id" : "Les-Boucaniers",
-			"destination" : "Carribean",
+			"destination" : "The Caribbean",
 			"name" : "Les Boucaniers",
 			"location" : "Martinique",
 			"comfortLevel" : "4",
@@ -65,7 +65,7 @@
 			"name" : "Diamonds Dream of Africa",
 			"location" : "Kenya",
 			"comfortLevel" : "5",
-			"activities" : ["canoeing", "diving", "fitness", "spa"],
+			"activities" : ["canoeing", "scuba diving", "fitness", "spa"],
 			"price" : 230,
 			"startDate" : "2016-01-01",
 			"endDate" : "2016-12-31",

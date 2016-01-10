@@ -1,7 +1,21 @@
 $.getJSON('data.json', function(data) {
   $(document).ready(function(){
 
+
       display();
+
+      //function for the date picker
+      $(function() {
+        $(".datepicker").datepicker();
+      });
+
+      //function for the select menu
+      $(function() {
+        $("#resortDestination").selectmenu();
+        $("#comfortLevel").selectmenu();
+        $("#resortActivities").selectmenu();
+      });
+
       function display(){
           var output="<ul class='columns'>";
           var userDest = $("input:checked").val();
