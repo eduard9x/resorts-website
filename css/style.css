@@ -115,14 +115,13 @@ li img{
   height:100px;
 }
 
-
-/*html {
-  background: url("../images/london.jpg") no-repeat center center fixed;
+html {
+  background: url("../images/backgr.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
+}
 
 header h1{
 color:  #fff;
@@ -130,13 +129,33 @@ white-space: nowrap;
 }
 
 footer{
-  margin:1em 0 .5em 0;
-  padding:10%;
-  background-color: #888;
+    color: #FFF;
+    border-top: 0px none;
+    background-color: #454545;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+footer {
+    border-top: 1px solid #D6D6D6;
+    font-size: 0.9em;
+    clear: both;
+    padding: 10px 10px 10px 20px;
+   
 }
 
-.site-footer-row{
-    background-color: #000;
-    padding-top: 10px;
-    padding-bottom: 20px;
+.one_third {
+    margin-left: 0px !important;
+    margin-right: 1.7%;
+    width: 32.2%;
+}
+
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
 }
