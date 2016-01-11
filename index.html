@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8" />
     <title>Resorts website</title>
@@ -27,87 +28,90 @@
     <![endif]-->
 
 </head>
+
 <body>
 
-<div class="wrapper">
+    <div class="wrapper">
 
-  <header>
-    <h1>Take the weekend off</h1>
-  </header>
+        <header>
+            <a href="index.html" style="text-decoration: none"> 
+                <div class="myButton">Home</div>
+            </a>
+            <h1>Take the weekend off</h1>   
+            
+        </header>
 
+        <div class="form">
+            <h3>Search for your trip:</h3>
+            <form action="#">
+                <fieldset>
+                    <select name="resortDestination" id="resortDestination">
+                        <option selected="selected">Any</option>
+                        <optgroup label="Destination">
+                            <option>The Alps</option>
+                            <option>Europe</option>
+                            <option>Africa</option>
+                            <option>The Caribbean</option>
+                            <option>Indian Ocean</option>
+                            <option>North and Central America</option>
+                            <option>South America</option>
+                            <option>Asia</option>
+                        </optgroup>
+                    </select>
 
-  <form action="#">
+                    <select name="comfortLevel" id="comfortLevel">
+                        <option selected="selected">Any</option>
+                        <optgroup label="Comfort level">
+                            <option>Comfort 3star</option>
+                            <option>Premium 4star</option>
+                            <option>Luxury 5star</option>
+                        </optgroup>
+                    </select>
 
-    <fieldset>
-      <select name="resortDestination" id="resortDestination">
-        <option selected="selected">Any</option>
-        <optgroup label="Destination">
-          <option>The Alps</option>
-          <option>Europe</option>
-          <option>Africa</option>
-          <option>The Caribbean</option>
-          <option>Indian Ocean</option>
-          <option>North and Central America</option>
-          <option>South America</option>
-          <option>Asia</option>
-        </optgroup>
-      </select>
+                    <select name="resortActivities" id="resortActivities">
+                        <option selected="selected">Any</option>
+                        <optgroup label="Activities">
+                            <option>Water skiing</option>
+                            <option>Sailing</option>
+                            <option>Tennis</option>
+                            <option>Scuba diving</option>
+                            <option>Golf</option>
+                            <option>Hiking</option>
+                            <option>Horse riding</option>
+                            <option>Spa</option>
+                            <option>Kitesurf</option>
+                            <option>Flying trapeze</option>
+                            <option>Skiing</option>
+                            <option>Extreme sports</option>
+                            <option>Fitness</option>
+                            <option>Canoeing</option>
+                            <option>Pool</option>
+                            <option>Fishing</option>
+                            <option>Windsurfing</option>
+                            <option>Ice skating</option>
+                            <option>Casino</option>
+                            <option>Kids club</option>
+                        </optgroup>
+                    </select>
 
-      <select name="comfortLevel" id="comfortLevel">
-          <option selected="selected">Any</option>
-          <optgroup label="Comfort level">
-            <option>Comfort 3star</option>
-            <option>Premium 4star</option>
-            <option>Luxury 5star</option>
-          </optgroup>
-      </select>
+                    <select name="resortPrice" id="resortPrice">
+                        <option selected="selected">Any</option>
+                        <optgroup label="Price per night">
+                            <option>less than £50</option>
+                            <option>between £50 - £100</option>
+                            <option>more than £100</option>
+                        </optgroup>
+                    </select>
 
-      <select name="resortActivities" id="resortActivities">
-        <option selected="selected">Any</option>
-        <optgroup label="Activities">
-          <option>Water skiing</option>
-          <option>Sailing</option>
-          <option>Tennis</option>
-          <option>Scuba diving</option>
-          <option>Golf</option>
-          <option>Hiking</option>
-          <option>Horse riding</option>
-          <option>Spa</option>
-          <option>Kitesurf</option>
-          <option>Flying trapeze</option>
-          <option>Skiing</option>
-          <option>Extreme sports</option>
-          <option>Fitness</option>
-          <option>Canoeing</option>
-          <option>Pool</option>
-          <option>Fishing</option>
-          <option>Windsurfing</option>
-          <option>Ice skating</option>
-          <option>Casino</option>
-          <option>Kids club</option>
-        </optgroup>
-      </select>
+                    <p style="margin:10px; color: white; font-size:18pt;">Start date:
+                        <input type="text" class="datepicker" id="StartDate"> End date:
+                        <input type="text" class="datepicker" id="EndDate">
+                    </p>
 
-      <select name="resortPrice" id="resortPrice">
-        <option selected="selected">Any</option>
-         <optgroup label="Price per night">
-            <option>less than £50</option>
-            <option>between £50 - £100</option>
-            <option>more than £100</option>
-        </optgroup>
-      </select>
-
-      <p>Start date: <input type="text" class="datepicker" id="StartDate"> End date: <input type="text" class="datepicker" id="EndDate"></p>
-
-    </fieldset>
-
-  </form>
-
-
-
-
-  <div class="search">
-    <!-- <label for="Carribean">Carribean</label>
+                </fieldset>
+            </form>
+            <div class="search">
+                <!-- <label for="Carribean">Carribean</label>
     <input type="radio" id="Carribean" name="destination" value="Carribean"/>
     <label for="Indian Ocean">Indian Ocean</label>
     <input type="radio" id="Indian Ocean" name="destination" value="Indian Ocean"/>
@@ -115,39 +119,67 @@
     <input type="radio" id="Any" name="destination" value="Any" checked/>
  -->
 
-    <button id="viewFavourites">View Favourites</button>
-    <button id="clearFavourites">Clear Favourites</button>
-    <button id="search">Search</button>
-  </div>
+                <button a href="#" class="myBut" id="viewFavourites">View Favourites</button>
+                <button a href="#" class="myBut" id="clearFavourites">Clear Favourites</button>
+                <button a href="#" class="myBut" id="searchBut">Search</button>
+            </div>
+        </div>
 
-  <div class="results">
-    <div id="placeholder"></div>
-  </div>
+        <div class="results">
+            <div id="placeholder"></div>
+        </div>
 
-  <footer class="site-footer">
-      <div class="one_third">
-      </div>
 
-      <div class = "one_third">
-          <ul class="about_list">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="resorts/Les-Boucaniers.html"">Les Boucaniers</a></li>
-              <li><a href="resorts/La-Plantation-dAlbion.html"">La Plantation d'Albion</a></li>
-              <li><a href="resorts/Chamonix.html"">Chamonix Mont-Blanc</a></li>
-              <li><a href="resorts/Terre-Blanche.html"">Terre Blanche</a></li>
-              <li><a href="resorts/Diamonds.html"">Diamonds Dream of Africa</a></li>
-              <li><a href="resorts/Chic.html"">CHIC Punta Cana</a></li>
-              <li><a href="resorts/Wind.html"">Wind Beach Resort</a></li>
-              <li><a href="resorts/Bandos.html"">Bandos Maldives</a></li>
-              <li><a href="resorts/Rocking.html"">Rocking Horse Ranch Resort</a></li>
-              <li><a href="resorts/Iguazu.html"">Iguazu Grand Resort</a></li>
-          </ul>
-      </div>
-            <div class="one_third">
-      </div>
-  </footer>
+        <footer class="site-footer">
+            <div class="container_footer">
+                <div class="column-center" style="margin-left:120px;">
 
-</div>
+                    <h5 style="margin-left:70px;">Resorts:</h5>
+                    <ul class="about_list">
+                        <li id="l1"><a href="resorts/Les-Boucaniers.html" style="text-decoration: none"><h6>Les Boucaniers</h6></a></li>
+                        <li id="l1"><a href="resorts/La-Plantation-dAlbion.html" style="text-decoration: none"><h6>La Plantation d'Albion</h6></a></li>
+                        <li id="l1"><a href="resorts/Chamonix.html" style="text-decoration: none"><h6>Chamonix Mont-Blanc</h6></a></li>
+                        <li id="l1"><a href="resorts/Terre-Blanche.html" style="text-decoration: none"><h6>Terre Blanche</h6></a></li>
+                        <li id="l1"><a href="resorts/Diamonds.html" style="text-decoration: none"><h6>Diamonds Dream of Africa</h6></a></li>
+                        <li id="l1"><a href="resorts/Chic.html" style="text-decoration: none"><h6>CHIC Punta Cana</h6></a></li>
+                        <li id="l1"><a href="resorts/Wind.html" style="text-decoration: none"><h6>Wind Beach Resort</h6></a></li>
+                        <li id="l1"><a href="resorts/Bandos.html" style="text-decoration: none"><h6>Bandos Maldives</h6></a></li>
+                        <li id="l1"><a href="resorts/Rocking.html" style="text-decoration: none"><h6>Rocking Horse Ranch Resort</h6></a></li>
+                        <li id="l1"><a href="resorts/Iguazu.html" style="text-decoration: none"><h6>Iguazu Grand Resort</h6></a></li>
+                    </ul>
+                </div>
+				
+                <div class="column-left">
+                    <h5 style="margin-left:10px;">About us:</h5>
+                    <p>
+                        <h8 style=" text-align: justify;">With us, planning a trip of a lifetime has never been so easy. </h8>
+                    </p>
+                    <p>
+                        <h8>Elevate your travel experience and benefit from the personalized service of a specialist with in-depth
+                            destination or lifestyle expertise.</h8>
+                    </p>
+                    <p>
+                        <h8> Discover new places or return to old favorites with itineraries that are tailor-made to your individual
+                            passions, and spend time focusing on the truly rewarding aspects of travel. </h8>
+                    </p>
+                </div>
+				
+                <div class="column-right">
+                    <h5>Contact us:</h5>
+                    <p>
+                        <h8>Name: Ghinea Eduard</h8>
+                    </p>
+                    <p>
+                        <h8>Email: ghineaeduard@gmail.com</h8>
+                    </p>
+                    <p>
+                        <h8>Phone: +447467783814 </h8>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
 
 
 
@@ -157,4 +189,5 @@
     <script src="js/mainscript.js"></script>
     <script src="../js/staffscript.js"></script>
 </body>
+
 </html>
