@@ -26,17 +26,10 @@
     background-position: center 0px;
 }
 
-        fieldset {
-                   border: 0;
-                   white-space: nowrap;
-                 }
-                 label {
-                   /*display: block;*/
-                   margin: 30px 0 0 0;
-                 }
+
                  select {
                    width: 20% !important;
                  }
                  .overflow {
-                   height: auto;
+                   /*height: auto;*/
                  }

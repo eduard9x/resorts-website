@@ -83,7 +83,11 @@ $.getJSON('data.json', function(data) {
               showResort = true;
             }
 
-            if(output.length==0) output = "<h2> Sorry. No results found. </h2> "
+              if(output.length==0) {
+                output = "";
+                var message = "<h2> Sorry. No results found. </h2> ";
+                document.getElementById("noResults").innerHTML=message;
+              }
 
               document.getElementById("placeholder").innerHTML=output;
 
@@ -97,24 +101,27 @@ $.getJSON('data.json', function(data) {
       $("#viewFavourites").on("click", function(){
           console.log("Restoring array resort from local storage.");
           myFavouriteResort = JSON.parse(localStorage.getItem("favResort"));
-          var output = "<ul>";
+          var output = "";
+          var message = "<h2> Favourite list is the following: </h2> ";
           if(myFavouriteResort!=null && myFavouriteResort.length!=0){
             for(var i=0;i<data.resorts.length;i++)
               for(var j=0;j<myFavouriteResort.length;j++)
                 if(data.resorts[i].id==myFavouriteResort[j]){
-                  output+="<li>" + data.resorts[i].name + " " + data.resorts[i].price + "--" + data.resorts[i].picture + " – "+ "<a href='" + data.resorts[i].url + "'>Visit Page</a></li>";
+                  output+="<ul class='columns'><li><img src='" + data.resorts[i].picture + "'><h2><a href='" + data.resorts[i].url + "'>" + data.resorts[i].name + "</a></h2><h4>" + data.resorts[i].startDate + " to " + data.resorts[i].endDate + "</h4><h4>Price per night: £" + data.resorts[i].price + "</h4><h4>" + data.resorts[i].short_description + "</h4>" + "</li></ul>";
                 }
-            output+="</ul>";
           }
           else{
-            output = "<h4>Favourite list is empty.</h4>";
+            output = "";
+            message = "<h2> Favourite list is empty. </h2> ";
           }
+          document.getElementById("noResults").innerHTML=message;
           document.getElementById("placeholder").innerHTML = output;
       });
 
       $("#clearFavourites").on("click", function(){
           myFavouriteResort = JSON.parse(localStorage.getItem("favResort"));
-          var output = "<h4>Favourites have been cleared.</h4>";
+          var output = "";
+          var message = "<h2> Favourites have been cleared. </h2> ";
           if(myFavouriteResort!=null && myFavouriteResort.length!=0){
             for(var i=0;i<data.resorts.length;i++)
               for(var j=0;j<myFavouriteResort.length;j++)
@@ -124,9 +131,11 @@ $.getJSON('data.json', function(data) {
           localStorage.setItem("favResort", JSON.stringify(myFavouriteResort));
           }
           else{
-            var output = "<h4>Favourite list is already empty.</h4>";
+            var output = "";
+            var message = "<h2> Favourite list is already empty. </h2> ";
           }
           document.getElementById("placeholder").innerHTML = output;
+          document.getElementById("noResults").innerHTML=message;
           //TODO might be even easier by making the myFavouriteResort=0; because we clear all favs.
       });
 

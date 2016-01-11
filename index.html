@@ -32,9 +32,9 @@
 <div class="wrapper">
 
   <header>
-    <a href="index.html" style="text-decoration: none"> 
-                <div class="myButton">Home</div>
-            </a>
+    <a href="index.html">
+        <div class="myButton">Home</div>
+    </a>
     <h1>Take the weekend off</h1>
   </header>
 
@@ -101,32 +101,24 @@
         </optgroup>
       </select>
 
-       <p style="margin:10px; color: white; font-size:18pt;">Start date:
-                        <input type="text" class="datepicker" id="StartDate"> End date:
-                        <input type="text" class="datepicker" id="EndDate">
-                    </p>
+       <p class="searchbar">
+          <span>Start date &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; End date</span><br>
+          <input type="text" class="datepicker" id="StartDate">
+          <input type="text" class="datepicker" id="EndDate">
+        </p>
+
     </fieldset>
 
   </form>
 
-
-
-
   <div class="search">
-    <!-- <label for="Carribean">Carribean</label>
-    <input type="radio" id="Carribean" name="destination" value="Carribean"/>
-    <label for="Indian Ocean">Indian Ocean</label>
-    <input type="radio" id="Indian Ocean" name="destination" value="Indian Ocean"/>
-    <label for="Any">Any</label>
-    <input type="radio" id="Any" name="destination" value="Any" checked/>
- -->
-
-    <button a href="#" class="myBut" id="viewFavourites">View Favourites</button>
-                <button a href="#" class="myBut" id="clearFavourites">Clear Favourites</button>
-                <button a href="#" class="myBut" id="searchBut">Search</button>
+        <button class="myBut" id="viewFavourites">View Favourites</button>
+        <button class="myBut" id="clearFavourites">Clear Favourites</button>
+        <button class="myBut" id="search">Search</button>
+  </div>
+  <div id="noResults"></div>
   </div>
 
-  </div>
   <div class="results">
     <div id="placeholder"></div>
   </div>
@@ -149,7 +141,7 @@
                         <li id="l1"><a href="resorts/Iguazu.html" style="text-decoration: none"><h6>Iguazu Grand Resort</h6></a></li>
                     </ul>
                 </div>
-				
+
                 <div class="column-left">
                     <h5 style="margin-left:10px;">About us:</h5>
                     <p>
@@ -164,7 +156,7 @@
                             passions, and spend time focusing on the truly rewarding aspects of travel. </h8>
                     </p>
                 </div>
-				
+
                 <div class="column-right">
                     <h5>Contact us:</h5>
                     <p>
@@ -181,8 +173,6 @@
         </footer>
 
 </div>
-
-
 
     <!-- <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script> -->
     <script src="js/jquery.min.js"></script>

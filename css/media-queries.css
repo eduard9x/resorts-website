@@ -24,6 +24,12 @@
    -webkit-box-reflect: below -15px -webkit-linear-gradient(transparent, transparent 50%, white 90%);
  }
 
+ .myButton{
+   padding:21px 12px;
+   top:5px;
+   left:5px;
+ }
+
 }
 
 /**
@@ -45,12 +51,17 @@
 
  .wrapper{
    text-align: center;
-   margin:0 5% 0 5%;
+   margin:0 10% 0 10%;
  }
 
  header h1{
    font-size:1.5em;
   -webkit-box-reflect: below -5px -webkit-linear-gradient(transparent, transparent 50%, white 90%);
+ }
 
+ .myButton{
+   padding:15px 0px;
+   top:5px;
+   left:0px;
  }
 }
