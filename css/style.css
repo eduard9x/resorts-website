@@ -354,3 +354,7 @@ h3{
 select {
    width: 200px;
 }
+
+span.message{
+	color:#000;
+}
