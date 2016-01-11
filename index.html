@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <title>Resorts website</title>
@@ -28,90 +27,93 @@
     <![endif]-->
 
 </head>
-
 <body>
 
-    <div class="wrapper">
+<div class="wrapper">
 
-        <header>
-            <a href="index.html" style="text-decoration: none"> 
+  <header>
+    <a href="index.html" style="text-decoration: none"> 
                 <div class="myButton">Home</div>
             </a>
-            <h1>Take the weekend off</h1>   
-            
-        </header>
+    <h1>Take the weekend off</h1>
+  </header>
 
-        <div class="form">
-            <h3>Search for your trip:</h3>
-            <form action="#">
-                <fieldset>
-                    <select name="resortDestination" id="resortDestination">
-                        <option selected="selected">Any</option>
-                        <optgroup label="Destination">
-                            <option>The Alps</option>
-                            <option>Europe</option>
-                            <option>Africa</option>
-                            <option>The Caribbean</option>
-                            <option>Indian Ocean</option>
-                            <option>North and Central America</option>
-                            <option>South America</option>
-                            <option>Asia</option>
-                        </optgroup>
-                    </select>
+ <div class="form">
+   <h3>Search for your trip:</h3>
+  <form action="#">
 
-                    <select name="comfortLevel" id="comfortLevel">
-                        <option selected="selected">Any</option>
-                        <optgroup label="Comfort level">
-                            <option>Comfort 3star</option>
-                            <option>Premium 4star</option>
-                            <option>Luxury 5star</option>
-                        </optgroup>
-                    </select>
+    <fieldset>
+      <select name="resortDestination" id="resortDestination">
+        <option selected="selected">Any</option>
+        <optgroup label="Destination">
+          <option>The Alps</option>
+          <option>Europe</option>
+          <option>Africa</option>
+          <option>The Caribbean</option>
+          <option>Indian Ocean</option>
+          <option>North and Central America</option>
+          <option>South America</option>
+          <option>Asia</option>
+        </optgroup>
+      </select>
 
-                    <select name="resortActivities" id="resortActivities">
-                        <option selected="selected">Any</option>
-                        <optgroup label="Activities">
-                            <option>Water skiing</option>
-                            <option>Sailing</option>
-                            <option>Tennis</option>
-                            <option>Scuba diving</option>
-                            <option>Golf</option>
-                            <option>Hiking</option>
-                            <option>Horse riding</option>
-                            <option>Spa</option>
-                            <option>Kitesurf</option>
-                            <option>Flying trapeze</option>
-                            <option>Skiing</option>
-                            <option>Extreme sports</option>
-                            <option>Fitness</option>
-                            <option>Canoeing</option>
-                            <option>Pool</option>
-                            <option>Fishing</option>
-                            <option>Windsurfing</option>
-                            <option>Ice skating</option>
-                            <option>Casino</option>
-                            <option>Kids club</option>
-                        </optgroup>
-                    </select>
+      <select name="comfortLevel" id="comfortLevel">
+          <option selected="selected">Any</option>
+          <optgroup label="Comfort level">
+            <option>Comfort 3star</option>
+            <option>Premium 4star</option>
+            <option>Luxury 5star</option>
+          </optgroup>
+      </select>
 
-                    <select name="resortPrice" id="resortPrice">
-                        <option selected="selected">Any</option>
-                        <optgroup label="Price per night">
-                            <option>less than £50</option>
-                            <option>between £50 - £100</option>
-                            <option>more than £100</option>
-                        </optgroup>
-                    </select>
+      <select name="resortActivities" id="resortActivities">
+        <option selected="selected">Any</option>
+        <optgroup label="Activities">
+          <option>Water skiing</option>
+          <option>Sailing</option>
+          <option>Tennis</option>
+          <option>Scuba diving</option>
+          <option>Golf</option>
+          <option>Hiking</option>
+          <option>Horse riding</option>
+          <option>Spa</option>
+          <option>Kitesurf</option>
+          <option>Flying trapeze</option>
+          <option>Skiing</option>
+          <option>Extreme sports</option>
+          <option>Fitness</option>
+          <option>Canoeing</option>
+          <option>Pool</option>
+          <option>Fishing</option>
+          <option>Windsurfing</option>
+          <option>Ice skating</option>
+          <option>Casino</option>
+          <option>Kids club</option>
+        </optgroup>
+      </select>
 
-                    <p style="margin:10px; color: white; font-size:18pt;">Start date:
+      <select name="resortPrice" id="resortPrice">
+        <option selected="selected">Any</option>
+         <optgroup label="Price per night">
+            <option>less than £50</option>
+            <option>between £50 - £100</option>
+            <option>more than £100</option>
+        </optgroup>
+      </select>
+
+       <p style="margin:10px; color: white; font-size:18pt;">Start date:
                         <input type="text" class="datepicker" id="StartDate"> End date:
                         <input type="text" class="datepicker" id="EndDate">
                     </p>
+    </fieldset>
 
-                </fieldset>
-            </form>
-            <div class="search">
-                <!-- <label for="Carribean">Carribean</label>
+  </form>
+
+
+
+
+  <div class="search">
+    <!-- <label for="Carribean">Carribean</label>
     <input type="radio" id="Carribean" name="destination" value="Carribean"/>
     <label for="Indian Ocean">Indian Ocean</label>
     <input type="radio" id="Indian Ocean" name="destination" value="Indian Ocean"/>
@@ -119,16 +121,15 @@
     <input type="radio" id="Any" name="destination" value="Any" checked/>
  -->
 
-                <button a href="#" class="myBut" id="viewFavourites">View Favourites</button>
+    <button a href="#" class="myBut" id="viewFavourites">View Favourites</button>
                 <button a href="#" class="myBut" id="clearFavourites">Clear Favourites</button>
                 <button a href="#" class="myBut" id="searchBut">Search</button>
-            </div>
-        </div>
+  </div>
 
-        <div class="results">
-            <div id="placeholder"></div>
-        </div>
-
+  </div>
+  <div class="results">
+    <div id="placeholder"></div>
+  </div>
 
         <footer class="site-footer">
             <div class="container_footer">
@@ -179,7 +180,7 @@
             </div>
         </footer>
 
-    </div>
+</div>
 
 
 
@@ -189,5 +190,4 @@
     <script src="js/mainscript.js"></script>
     <script src="../js/staffscript.js"></script>
 </body>
-
 </html>
