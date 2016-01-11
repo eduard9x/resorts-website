@@ -84,6 +84,7 @@ for(var i=0;i<data.resorts.length;i++){
         var myFavouriteResort = JSON.parse(localStorage.getItem("favResort"));
         var confirmRemoval = 0;
 
+        //removing a favourite resort from the local storage
         if(myFavouriteResort!=null && myFavouriteResort.length!=0){
             for(var i in myFavouriteResort)
               if(myFavouriteResort[i] == resortIdToRemove) {
@@ -97,7 +98,7 @@ for(var i=0;i<data.resorts.length;i++){
               var message = "Not saved as favourite.";
               $("span.message").text(message);
             }
-        }
+        }//printing the corresponding message
         else{
           var message = "Nothing to remove.";
           $("span.message").text(message);
